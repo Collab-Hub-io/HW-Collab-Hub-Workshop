@@ -1,7 +1,7 @@
 # NIME 2021 Workshop
 ## Using Collab-Hub for local/remote networked audiovisual collaboration
 
-<img src="/images/CH-Title.png" alt="Collab-Hub Logo" height="50"/>
+<img src="/img/CH-Title.png" alt="Collab-Hub Logo" height="50"/>
 
 <a href="https://www.collab-hub.io" target="_blank">Collab-Hub homepage</a>
 
