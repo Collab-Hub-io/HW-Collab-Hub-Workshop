@@ -1,3 +1,5 @@
-Hi!
+# NIME 2021 Workshop
+## Using Collab-Hub for local/remote networked audiovisual collaboration
 
-`git clone --recurse-submodules https://github.com/Collab-Hub-io/NIME-CH-Demos.git`
+### Using This Repository
+To download the files references during this workshop, click on the green Code button and choose "Download ZIP."
