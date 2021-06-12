@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 62.0, 562.0, 864.0 ],
+		"rect" : [ 34.0, 182.0, 1512.0, 864.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -57,7 +57,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 2004.0, 589.200000882148743, 33.0, 22.0 ],
+					"patching_rect" : [ 2004.0, 598.200000882148743, 33.0, 22.0 ],
 					"text" : "* 30."
 				}
 
@@ -96,7 +96,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 2044.30000114440918, 384.333332180976868, 55.333330512046814, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 104.00000011920929, 345.333345413208008, 56.0, 20.0 ],
+					"presentation_rect" : [ 701.299959719181061, 121.666657686233521, 56.0, 20.0 ],
 					"text" : "Duration"
 				}
 
@@ -109,7 +109,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1781.133335888385773, 382.333332180976868, 55.333330512046814, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 37.00000011920929, 345.333345413208008, 56.0, 20.0 ],
+					"presentation_rect" : [ 443.299959719181061, 119.666657686233521, 56.0, 20.0 ],
 					"text" : "Trigger"
 				}
 
@@ -359,13 +359,14 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontsize" : 16.0,
 					"id" : "obj-97",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1736.833332777023315, 36.0, 164.0, 20.0 ],
+					"patching_rect" : [ 1733.583332777023315, 29.0, 214.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.00000011920929, 19.333333373069763, 164.0, 20.0 ],
+					"presentation_rect" : [ 22.00000011920929, 19.333333373069763, 214.0, 24.0 ],
 					"text" : "Collab-Control"
 				}
 
@@ -375,11 +376,12 @@
 					"bgcolor" : [ 0.6, 0.8, 0.6, 0.0 ],
 					"fontface" : 1,
 					"id" : "obj-67",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1733.583332777023315, 73.50000011920929, 461.5, 20.0 ],
-					"text" : "PUSH - Pushed controls/events are automatically sent to the intended target(s)."
+					"patching_rect" : [ 1733.583332777023315, 73.50000011920929, 461.5, 33.0 ],
+					"text" : "This demo uses PUSH routing.\nPUSH - Pushed controls/events are automatically sent to the intended target(s)."
 				}
 
 			}
@@ -429,13 +431,14 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
+					"fontsize" : 16.0,
 					"id" : "obj-48",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 19.833282589912415, 26.0, 164.0, 20.0 ],
+					"patching_rect" : [ 19.833282589912415, 29.0, 211.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.00000011920929, 290.000002861022949, 164.0, 20.0 ],
+					"presentation_rect" : [ 22.00000011920929, 290.000002861022949, 211.0, 24.0 ],
 					"text" : "Instrument"
 				}
 
@@ -447,8 +450,8 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 27.0, 788.66668975353241, 148.0, 22.0 ],
-					"text" : "mc.combine~ 3 @chans 1"
+					"patching_rect" : [ 27.0, 784.66668975353241, 148.0, 22.0 ],
+					"text" : "mc.combine~ 3 @chans 3"
 				}
 
 			}
@@ -571,7 +574,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-25",
-					"lastchannelcount" : 1,
+					"lastchannelcount" : 3,
 					"maxclass" : "mc.live.gain~",
 					"numinlets" : 1,
 					"numoutlets" : 4,
@@ -799,7 +802,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.68, 0, 119.148936170212806, 0.053333333333333, 0, 1119.999999999999545, 0.0, 0 ],
+					"addpoints" : [ 0.0, 0.528888945579529, 0, 119.148936170212806, 0.053333333333333, 0, 1119.999999999999545, 0.0, 0 ],
 					"domain" : 1120.0,
 					"id" : "obj-56",
 					"maxclass" : "function",
@@ -1613,6 +1616,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
+					"midpoints" : [ 1914.299999733765844, 593.700000882148743, 2013.5, 593.700000882148743 ],
 					"source" : [ "obj-113", 2 ]
 				}
 
@@ -2001,6 +2005,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
+					"midpoints" : [ 2013.5, 657.0, 1977.233333200216293, 657.0, 1977.233333200216293, 634.100000858306885, 1908.966666400432587, 634.100000858306885 ],
 					"source" : [ "obj-70", 0 ]
 				}
 
