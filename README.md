@@ -19,3 +19,4 @@ You may also want to keep this page open in order to follow along during the wor
 ### Collab-Hub Clients
 Current versions of the client software included in this workshop repository are also available (and updated) at the following locations:
 - <a href="https://github.com/Collab-Hub-io/Collab-Hub-Max-Client" target="_blank">Max client</a>
+*This section should be made clearer - maybe change the README inside the local copy of the client to point to the repo?*
