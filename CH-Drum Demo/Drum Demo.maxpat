@@ -57,8 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 366.0, 93.0, 135.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1159.299968481063843, 225.500002086162567, 156.0, 22.0 ],
 					"text" : "r toInstrument_variation"
 				}
 
@@ -2516,22 +2514,15 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "CH-Client.maxpat",
-				"bootpath" : "~/GitHub/NIME-CH-Demos/Collab-Hub-Max-Client/bpatchers",
-				"patcherrelativepath" : "../Collab-Hub-Max-Client/bpatchers",
+				"bootpath" : "~/Downloads/SHPofTHSEUS-main/Collab-Hub-Max-Client-6fe353e324cfa6cb1c0710584c8a5ee27b214b29/bpatchers",
+				"patcherrelativepath" : "../../../Downloads/SHPofTHSEUS-main/Collab-Hub-Max-Client-6fe353e324cfa6cb1c0710584c8a5ee27b214b29/bpatchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "CH-Client-Title.png",
-				"bootpath" : "~/GitHub/NIME-CH-Demos/Collab-Hub-Max-Client/img/for-bpatchers",
-				"patcherrelativepath" : "../Collab-Hub-Max-Client/img/for-bpatchers",
-				"type" : "PNG",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "CH-ClientScript-v0.3.js",
-				"bootpath" : "~/GitHub/NIME-CH-Demos/Collab-Hub-Max-Client",
-				"patcherrelativepath" : "../Collab-Hub-Max-Client",
+				"bootpath" : "~/Downloads/SHPofTHSEUS-main/Collab-Hub-Max-Client-6fe353e324cfa6cb1c0710584c8a5ee27b214b29/bpatchers",
+				"patcherrelativepath" : "../../../Downloads/SHPofTHSEUS-main/Collab-Hub-Max-Client-6fe353e324cfa6cb1c0710584c8a5ee27b214b29/bpatchers",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
