@@ -3,7 +3,7 @@
 
 <img src="/images/CH-Title.png" alt="Collab-Hub Logo" height="50"/>
 
-[Collab-Hub homepage](https://www.collab-hub.io/)
+<a href="https://www.collab-hub.io/" target="_blank">Collab-Hub homepage</a>
 
 ### Using This Repository
 To download the files referenced during this workshop, click on the green Code button and choose "Download ZIP."
