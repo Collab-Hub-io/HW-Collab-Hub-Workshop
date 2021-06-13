@@ -1,4 +1,4 @@
-#N canvas 0 1 589 724 12;
+#N canvas 0 1 1844 974 12;
 #X obj 13 725 udpreceive 3001;
 #X msg 13 698 port 3001;
 #X obj 136 776 udpsend;
@@ -45,7 +45,7 @@
 #X obj 179 177 vsl 15 50 0 100 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
 #X obj 300 177 vsl 15 50 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 2989 1;
+-1 -1 0 1;
 #X obj 421 177 vsl 15 50 0 100 0 0 empty empty empty 0 -9 0 10 -262144
 -1 -1 0 1;
 #X obj 10 118 r fromClient;
@@ -69,7 +69,7 @@
 #X obj 231 360 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 220 307 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 3500 1;
+-1 -1 0 1;
 #X text 386 609 Observe All Published Events and Pulished All Controls
 ;
 #X text 112 14 Receive Events;
@@ -86,26 +86,13 @@
 #X text 11 609 Change the port numbers in Main.js lines 17 & 18;
 #X floatatom 478 174 5 0 0 0 - - -;
 #X obj 522 176 vsl 15 50 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 3087 1;
+-1 -1 0 1;
 #X obj 478 150 route value2;
 #X obj 736 88 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 736 63 route bang2;
-#X msg 215 421 0;
-#X msg 254 421 127;
-#X msg 388 421 0;
-#X msg 427 421 127;
-#X msg 215 455 push all synthGateA \$1;
-#X msg 388 455 push all synthGateB \$1;
-#X msg 173 332 push all synthCV_A \$1;
-#X floatatom 194 506 5 0 127 0 - - -;
-#X obj 241 506 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
-#X msg 194 531 push all synthCV_C \$1;
-#X msg 183 381 push all pdSlider1 \$1;
-#X obj 325 421 t 0 1;
-#X obj 347 381 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
--1 -1;
+#X msg 173 332 push all pdSlider2 \$1;
+#X msg 183 381 push all pdSlider2 \$1;
 #X connect 0 0 3 0;
 #X connect 1 0 0 0;
 #X connect 3 0 34 0;
@@ -113,7 +100,7 @@
 #X connect 5 0 2 0;
 #X connect 6 0 7 0;
 #X connect 8 0 48 0;
-#X connect 9 0 80 0;
+#X connect 9 0 74 0;
 #X connect 10 0 11 0;
 #X connect 11 0 1 0;
 #X connect 11 1 4 0;
@@ -149,7 +136,7 @@
 #X connect 40 0 71 0;
 #X connect 41 0 42 0;
 #X connect 42 0 31 0;
-#X connect 44 0 84 0;
+#X connect 44 0 75 0;
 #X connect 45 0 43 0;
 #X connect 47 0 21 0;
 #X connect 48 0 31 0;
@@ -166,17 +153,5 @@
 #X connect 71 0 69 0;
 #X connect 71 0 70 0;
 #X connect 73 0 72 0;
-#X connect 74 0 78 0;
-#X connect 75 0 78 0;
-#X connect 76 0 79 0;
-#X connect 77 0 79 0;
-#X connect 78 0 31 0;
-#X connect 79 0 31 0;
-#X connect 80 0 31 0;
-#X connect 81 0 83 0;
-#X connect 82 0 81 0;
-#X connect 83 0 31 0;
-#X connect 84 0 31 0;
-#X connect 85 0 78 0;
-#X connect 85 1 78 0;
-#X connect 86 0 85 0;
+#X connect 74 0 31 0;
+#X connect 75 0 31 0;
