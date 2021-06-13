@@ -1,4 +1,4 @@
-#N canvas 0 1 1844 974 12;
+#N canvas 352 40 919 901 12;
 #X obj 13 725 udpreceive 3001;
 #X msg 13 698 port 3001;
 #X obj 136 776 udpsend;
@@ -69,7 +69,7 @@
 #X obj 231 360 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
 -1 -1 0 1;
 #X obj 220 307 hsl 128 15 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 5200 1;
 #X text 386 609 Observe All Published Events and Pulished All Controls
 ;
 #X text 112 14 Receive Events;
@@ -86,13 +86,13 @@
 #X text 11 609 Change the port numbers in Main.js lines 17 & 18;
 #X floatatom 478 174 5 0 0 0 - - -;
 #X obj 522 176 vsl 15 50 0 100 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 4900 1;
 #X obj 478 150 route value2;
 #X obj 736 88 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
 #X obj 736 63 route bang2;
-#X msg 173 332 push all pdSlider2 \$1;
 #X msg 183 381 push all pdSlider2 \$1;
+#X msg 173 332 push all pdSlider1 \$1;
 #X connect 0 0 3 0;
 #X connect 1 0 0 0;
 #X connect 3 0 34 0;
@@ -100,7 +100,7 @@
 #X connect 5 0 2 0;
 #X connect 6 0 7 0;
 #X connect 8 0 48 0;
-#X connect 9 0 74 0;
+#X connect 9 0 75 0;
 #X connect 10 0 11 0;
 #X connect 11 0 1 0;
 #X connect 11 1 4 0;
@@ -136,7 +136,7 @@
 #X connect 40 0 71 0;
 #X connect 41 0 42 0;
 #X connect 42 0 31 0;
-#X connect 44 0 75 0;
+#X connect 44 0 74 0;
 #X connect 45 0 43 0;
 #X connect 47 0 21 0;
 #X connect 48 0 31 0;
