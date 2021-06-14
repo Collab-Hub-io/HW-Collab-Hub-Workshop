@@ -1,4 +1,4 @@
-# Collab-Hub PD Client 0.3
+# Collab-Hub PD Client 0.3.1 - NIME WORKSHOP
 
 <br/>
 
