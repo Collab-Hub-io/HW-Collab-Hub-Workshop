@@ -7,6 +7,11 @@
 <br/>
 
 ---
+### NIME WORKSHOP
+
+*This version of the Pd client was prepared for the NIME 2021 Workshop. To stay updated with the latest version of the Pd client and find more examples, please refer to https://github.com/Collab-Hub-io/Collab-Hub-Pd-Client.*
+
+---
 
 ## Overview
 
