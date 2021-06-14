@@ -86,7 +86,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 581.999996781349182, 238.000002264976501, 412.0, 85.0 ],
+					"patching_rect" : [ 581.999996781349182, 238.000002264976501, 414.0, 85.0 ],
 					"text" : "To test this out, use the orange umenu in Step 3 to first select an available room to send data to. Then, use the orange button below to send an event with the header 'bam' to clients in your selected room. You can reroute data between rooms dynamically without stopping or restarting the client node script.",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -316,7 +316,7 @@
 					"bgfillcolor_proportion" : 0.5,
 					"bgfillcolor_type" : "color",
 					"id" : "obj-25",
-					"items" : [ "pdRoom", ",", "maxRoom" ],
+					"items" : [ "arduinoRoom", ",", "webRoom" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -369,7 +369,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 618.666664958000183, 520.5, 174.0, 22.0 ],
-					"text" : "push maxRoom bam"
+					"text" : "push arduinoRoom bam"
 				}
 
 			}
@@ -576,7 +576,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-9",
-									"items" : "<empty>",
+									"items" : "maxRoom",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -862,7 +862,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-52",
-									"items" : [ "pdRoom", ",", "maxRoom" ],
+									"items" : [ "arduinoRoom", ",", "webRoom" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -1895,6 +1895,8 @@
 									"saved_object_attributes" : 									{
 										"autostart" : 0,
 										"defer" : 0,
+										"node_bin_path" : "",
+										"npm_bin_path" : "",
 										"watch" : 0
 									}
 ,
@@ -1959,7 +1961,6 @@
 								"box" : 								{
 									"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
 									"fontname" : "Arial",
-									"hidden" : 1,
 									"id" : "obj-3",
 									"maxclass" : "textbutton",
 									"numinlets" : 1,
