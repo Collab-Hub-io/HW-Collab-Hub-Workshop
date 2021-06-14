@@ -3,7 +3,9 @@
 
 <img src="/img/CH-Title.png" alt="Collab-Hub Logo" height="50"/>
 
-<a href="https://www.collab-hub.io" target="_blank">Collab-Hub homepage</a>
+<br>
+<a href="https://www.collab-hub.io" target="_blank">**Collab-Hub homepage**</a>
+<br>
 
 ### Using This Repository
 To download the files referenced during this workshop, click on the green Code button and choose "Download ZIP." Unzip the file if needed.  
@@ -16,6 +18,8 @@ In the resulting folder, you will find client resources and demo patches for Max
 In order to use the Max examples, make sure to add the **NIME2021-Collab-Hub-Workshop** folder to your Max file preferences (with subfolders option checked).  
 
 You may also want to keep this page open in order to follow along during the workshop and reference the different README files.  
+
+<br>
 
 ### Collab-Hub Client Locations for Workshop
 - <a href="https://github.com/Collab-Hub-io/NIME2021-Collab-Hub-Workshop/tree/main/Collab-Hub-Max-Client-v0.3" target="_blank">Max client</a>
