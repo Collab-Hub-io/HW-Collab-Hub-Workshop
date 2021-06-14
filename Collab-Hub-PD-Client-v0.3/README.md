@@ -7,6 +7,8 @@
 <br/>
 
 ---
+### NIME WORKSHOP
+This version is used for the NIME 2021 Workshop. For the latest version of the PD-Client and more examples, please refer to 
 
 ## Overview
 
