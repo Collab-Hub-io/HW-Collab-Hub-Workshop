@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 81.0, 568.0, 482.0 ],
+		"rect" : [ 59.0, 81.0, 1138.0, 965.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,46 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 172.5, 516.0, 81.0, 22.0 ],
+					"text" : "loadmess -20"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"lastchannelcount" : 0,
+					"maxclass" : "live.gain~",
+					"numinlets" : 2,
+					"numoutlets" : 5,
+					"outlettype" : [ "signal", "signal", "", "float", "list" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 91.0, 563.0, 48.0, 136.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 19.0, 409.0, 48.0, 136.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "live.gain~",
+							"parameter_mmax" : 6.0,
+							"parameter_mmin" : -70.0,
+							"parameter_shortname" : "live.gain~",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 4
+						}
+
+					}
+,
+					"varname" : "live.gain~"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-16",
 					"linecount" : 9,
@@ -88,7 +128,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 138.0, 690.0, 150.0, 20.0 ],
+					"patching_rect" : [ 138.0, 720.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 66.0, 358.0, 150.0, 20.0 ],
 					"text" : "click to turn audio on"
@@ -219,7 +259,7 @@
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 91.0, 690.0, 45.0, 45.0 ],
+					"patching_rect" : [ 91.0, 720.0, 45.0, 45.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 19.0, 358.0, 45.0, 45.0 ]
 				}
@@ -300,8 +340,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 1 ],
+					"destination" : [ "obj-2", 1 ],
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
@@ -337,6 +384,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 1 ],
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-21", 0 ]
 				}
@@ -351,7 +412,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -378,6 +439,15 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-2" : [ "live.gain~", "live.gain~", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "TelephoneBpatcher.maxpat",
 				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/CH-Telephone",
