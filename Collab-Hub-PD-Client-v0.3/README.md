@@ -8,10 +8,7 @@
 
 ---
 ### NIME WORKSHOP
-
-*This version of the Pd client was prepared for the NIME 2021 Workshop. To stay updated with the latest version of the Pd client and find more examples, please refer to https://github.com/Collab-Hub-io/Collab-Hub-Pd-Client.*
-
----
+This version is used for the NIME 2021 Workshop. For the latest version of the PD-Client and more examples, please visit [https://github.com/Collab-Hub-io].
 
 ## Overview
 
@@ -37,11 +34,10 @@ Below shows how data follows between Collab-Hub, the client, and Pd:
 *An upcoming version of this client will be a standalone application, where you will not have to start node instances or install other applications.*
 
 1. Download the Collab-Hub-Pd-Client folder using the green Code button near the top of this page. Either choose "Download ZIP" or, if you're comfortable using git, you can clone the repo.
-2. This package includes the Pd externals of [```udpreceive```] and [```udpsend```] from the *iemnet* library.
-3. Download and install Node.js from https://nodejs.org.
-4. Download and install Pd from https://puredata.info.
-5. Navigate to the downloaded Collab-Hub-Pd-Client package folder. If you downloaded the package as a ZIP, then unzip it, and naviagate to that folder.
-6. From your operating system's Terminal/Command Prompt, <br/>
+2. Download and install Node.js from https://nodejs.org.
+3. Download and install Pd from https://puredata.info.
+4. Navigate to the downloaded Collab-Hub-Pd-Client package folder. If you downloaded the package as a ZIP, then unzip it, and naviagate to that folder.
+5. From your operating system's Terminal/Command Prompt, <br/>
 type ```node main.js``` -- this will start the Client using its default settings: 
    - connecting to ```ch-server.herokuapp.com```
    - using a receive port of ```3002``` (Pd will SEND to this port)
