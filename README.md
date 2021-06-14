@@ -4,7 +4,7 @@
 <img src="/img/CH-Title.png" alt="Collab-Hub Logo" height="50"/>
 
 <br>
-<a href="https://www.collab-hub.io" target="_blank">Collab-Hub homepage</a>
+<a href="https://www.collab-hub.io" target="_blank"><b>Collab-Hub homepage</b></a>
 <br>
 
 ### Using This Repository
@@ -23,4 +23,4 @@ You may also want to keep this page open in order to follow along during the wor
 
 ### Collab-Hub Client Locations for Workshop
 - <a href="https://github.com/Collab-Hub-io/NIME2021-Collab-Hub-Workshop/tree/main/Collab-Hub-Max-Client-v0.3" target="_blank">Max client</a>
-- <a href="https://github.com/Collab-Hub-io/NIME2021-Collab-Hub-Workshop/tree/main/Collab-Hub-PD-Client-v0.3" target="_blank">PD client</a>
+- <a href="https://github.com/Collab-Hub-io/NIME2021-Collab-Hub-Workshop/tree/main/Collab-Hub-PD-Client-v0.3" target="_blank">Pd client</a>
