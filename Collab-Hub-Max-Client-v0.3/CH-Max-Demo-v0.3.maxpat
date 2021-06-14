@@ -40,6 +40,32 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 3,
+					"id" : "obj-28",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 575.5, 319.5, 161.0, 20.0 ],
+					"text" : "raw data from server",
+					"textcolor" : [ 0.129411764705882, 0.129411764705882, 0.129411764705882, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 575.5, 341.5, 220.0, 35.0 ],
+					"text" : "availableRoomsUmenu dictionary u787001655"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-41",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -731,6 +757,14 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-15", 1 ],
+					"order" : 3,
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-34", 0 ],
 					"order" : 0,
 					"source" : [ "obj-62", 0 ]
@@ -777,85 +811,85 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "CH-Client.maxpat",
-				"bootpath" : "~/Documents/GitStuff/Collab-Hub-Max-Client/bpatchers",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/Collab-Hub-Max-Client-v0.3/bpatchers",
 				"patcherrelativepath" : "./bpatchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-Client-Title.png",
-				"bootpath" : "~/Documents/GitStuff/Collab-Hub-Max-Client/img/for-bpatchers",
-				"patcherrelativepath" : "./img/for-bpatchers",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/img/for-bpatchers",
+				"patcherrelativepath" : "../img/for-bpatchers",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-ClientScript-v0.3.js",
-				"bootpath" : "~/Documents/GitStuff/Collab-Hub-Max-Client",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/Collab-Hub-Max-Client-v0.3",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-Rooms.maxpat",
-				"bootpath" : "~/Documents/GitStuff/Collab-Hub-Max-Client/bpatchers",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/Collab-Hub-Max-Client-v0.3/bpatchers",
 				"patcherrelativepath" : "./bpatchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-Rooms-Title.png",
-				"bootpath" : "~/Documents/GitStuff/Collab-Hub-Max-Client/img/for-bpatchers",
-				"patcherrelativepath" : "./img/for-bpatchers",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/img/for-bpatchers",
+				"patcherrelativepath" : "../img/for-bpatchers",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-Chat.maxpat",
-				"bootpath" : "~/Documents/GitStuff/Collab-Hub-Max-Client/bpatchers",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/Collab-Hub-Max-Client-v0.3/bpatchers",
 				"patcherrelativepath" : "./bpatchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-Chat-Title.png",
-				"bootpath" : "~/Documents/GitStuff/Collab-Hub-Max-Client/img/for-bpatchers",
-				"patcherrelativepath" : "./img/for-bpatchers",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/img/for-bpatchers",
+				"patcherrelativepath" : "../img/for-bpatchers",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-Controls.maxpat",
-				"bootpath" : "~/Documents/GitStuff/Collab-Hub-Max-Client/bpatchers",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/Collab-Hub-Max-Client-v0.3/bpatchers",
 				"patcherrelativepath" : "./bpatchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-Controls-Title.png",
-				"bootpath" : "~/Documents/GitStuff/Collab-Hub-Max-Client/img/for-bpatchers",
-				"patcherrelativepath" : "./img/for-bpatchers",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/img/for-bpatchers",
+				"patcherrelativepath" : "../img/for-bpatchers",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-Events.maxpat",
-				"bootpath" : "~/Documents/GitStuff/Collab-Hub-Max-Client/bpatchers",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/Collab-Hub-Max-Client-v0.3/bpatchers",
 				"patcherrelativepath" : "./bpatchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-Events-Title.png",
-				"bootpath" : "~/Documents/GitStuff/Collab-Hub-Max-Client/img/for-bpatchers",
-				"patcherrelativepath" : "./img/for-bpatchers",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/img/for-bpatchers",
+				"patcherrelativepath" : "../img/for-bpatchers",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "CH-Title.png",
-				"bootpath" : "~/Documents/GitStuff/Collab-Hub-Max-Client/img",
-				"patcherrelativepath" : "./img",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/Collab-Hub-PD-Client-v0.3/img",
+				"patcherrelativepath" : "../Collab-Hub-PD-Client-v0.3/img",
 				"type" : "PNG",
 				"implicit" : 1
 			}
