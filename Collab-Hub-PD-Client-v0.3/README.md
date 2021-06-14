@@ -44,7 +44,7 @@ type ```node main.js``` -- this will start the Client using its default settings
    signifying your connection to the Collab-Hub client. You might see other messages as well. Keep this window open, as you will be able to see messages from the server as you send/receive data. See image below.
    <img src="./img/for-readme/Pd-Client-Connection.png" alt="Connected to server messages">
 8. Open Pd-Example.pd
-9. The patch should automatically try to connect to client.
+9. The patch should automatically try to connect to client. Check the PD window for errors.
 10. You are now able to send and receive Events, Controls, and Chat with Collab-Hub.
     
 
