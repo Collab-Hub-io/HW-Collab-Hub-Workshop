@@ -18,9 +18,6 @@ The Pd Client package currently consists of (1) a PD example patch, (2) a node b
 
 This Collab-Hub Pd Client package utilizes [Node.js](https://nodejs.org) and [Socket.IO](https://socket.io). 
 
-The Pd patch uses Pd externals of [```udpreceive```] and [```udpsend```] -- these exterals can be found the 'externals' folder, or you can download them from within Pd. <br />
-``` Pd > Help > Find Externals... > "iemnet"```
-
 Below shows how data follows between Collab-Hub, the client, and Pd:
 
 *Pd <=> Collab-Hub Pd Client <=> Collab-Hub Server <=> Other Clients*

@@ -1,4 +1,4 @@
-#N canvas 352 40 919 901 12;
+#N canvas 352 40 882 867 12;
 #X obj 13 751 fudiparse;
 #X obj 179 750 fudiformat;
 #X obj 94 63 route webEvent1;
@@ -51,7 +51,7 @@
 #X obj 391 751 send toClient;
 #X floatatom 183 357 5 0 127 0 - - -;
 #X obj 391 725 route list;
-#X text 936 897 updated for Collab-Hub v0.3.0 - NH;
+#X text 624 832 updated for Collab-Hub v0.3.0 - NH;
 #X obj 444 63 route espEvent;
 #X obj 554 88 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
 -1;
