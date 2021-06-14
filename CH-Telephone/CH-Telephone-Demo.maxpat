@@ -380,7 +380,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "TelephoneBpatcher.maxpat",
-				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/Telephone",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/CH-Telephone",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
