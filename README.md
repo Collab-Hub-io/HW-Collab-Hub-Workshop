@@ -4,7 +4,7 @@
 <img src="/img/CH-Title.png" alt="Collab-Hub Logo" height="50"/>
 
 <br>
-<a href="https://www.collab-hub.io" target="_blank"><<b>Collab-Hub homepage</b></a>
+<a href="https://www.collab-hub.io" target="_blank"><b>Collab-Hub homepage</b></a>
 <br>
 
 ### Using This Repository
