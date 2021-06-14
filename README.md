@@ -24,3 +24,4 @@ You may also want to keep this page open in order to follow along during the wor
 ### Collab-Hub Client Locations for Workshop
 - <a href="https://github.com/Collab-Hub-io/NIME2021-Collab-Hub-Workshop/tree/main/Collab-Hub-Max-Client-v0.3" target="_blank">Max client</a>
 - <a href="https://github.com/Collab-Hub-io/NIME2021-Collab-Hub-Workshop/tree/main/Collab-Hub-PD-Client-v0.3" target="_blank">Pd client</a>
+- <a href="http://ch-server.herokuapp.com/" target="_blank">Web client</a>

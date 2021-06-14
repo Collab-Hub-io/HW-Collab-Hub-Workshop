@@ -40,6 +40,28 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-12",
+					"lockeddragscroll" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "TelephoneBpatcher.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"offset" : [ 0.0, 0.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 328.0, 94.0, 93.0, 185.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 83.0, 109.0, 93.0, 185.0 ],
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
@@ -119,28 +141,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 328.0, 365.0, 37.0, 22.0 ],
 					"text" : "saw~"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-12",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "teleBpatcher.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 328.0, 94.0, 93.0, 185.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 226.0, 94.0, 93.0, 185.0 ],
-					"viewvisibility" : 1
 				}
 
 			}
@@ -226,7 +226,7 @@
 					"id" : "obj-1",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "teleBpatcher.maxpat",
+					"name" : "TelephoneBpatcher.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -241,16 +241,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"order" : 1,
-					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
-					"order" : 0,
 					"source" : [ "obj-1", 0 ]
 				}
 
@@ -348,8 +339,8 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "teleBpatcher.maxpat",
-				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/telephone?",
+				"name" : "TelephoneBpatcher.maxpat",
+				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/Telephone",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
