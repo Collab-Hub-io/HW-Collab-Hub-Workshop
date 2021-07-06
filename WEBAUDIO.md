@@ -1,5 +1,5 @@
 # WAC2021 Collab-Hub Workshop
-## Creating Telematic Musical Performances Through Max And The Web With Collab-Hub
+## Creating Telematic Musical Performances Through Max And The Web With Collab-Hub  
 
 ### Using Collab-Hub in Web Audio Applications
 
@@ -12,8 +12,8 @@ Clone from [GitHub](https://github.com/socketio/socket.io), or install using npm
 Include in HTML head:  
 `<script src="/socket.io/socket.io.js"></script>`  
 
-Developers using only the client functionality of Socket.IO may alternatively install:
-`npm install socket.io-client`
+Developers using only the client functionality of Socket.IO may alternatively install the smaller client-only package:
+`npm install socket.io-client`  
 
 #### Messages
 All control, event, and chat messages are sent as objects in the following formats. Client applications parse these objects as needed for native use in their respective hosts (e.g. Max, Pd, etc).
@@ -56,7 +56,7 @@ socket.on("event", incoming => {
       eventResponse();
     };
 });
-```
+```  
 
 
 #### Additional Functionality
