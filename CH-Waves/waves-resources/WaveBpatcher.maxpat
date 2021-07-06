@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1435.5, 953.0, 73.0, 22.0 ],
+					"text" : "speedlim 80"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"comment" : "",
 					"id" : "obj-167",
 					"index" : 0,
@@ -512,7 +524,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1435.5, 953.0, 85.0, 22.0 ],
+					"patching_rect" : [ 1435.5, 977.0, 85.0, 22.0 ],
 					"text" : "s toCH-Server"
 				}
 
@@ -3591,6 +3603,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-53", 0 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-177", 0 ],
 					"source" : [ "obj-24", 0 ]
 				}
@@ -4254,7 +4273,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 0 ],
+					"destination" : [ "obj-23", 0 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -4386,31 +4405,23 @@
 
 			}
  ],
-		"parameters" : 		{
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "wave.gendsp",
-				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/CH-Waves",
+				"bootpath" : "~/GitHub/WAC2021-Collab-Hub-Workshop/CH-Waves/waves-resources",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "link-biquad.gendsp",
-				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/CH-Waves",
+				"bootpath" : "~/GitHub/WAC2021-Collab-Hub-Workshop/CH-Waves/waves-resources",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mass-biquad.gendsp",
-				"bootpath" : "~/GitHub/NIME2021-Collab-Hub-Workshop/CH-Waves",
+				"bootpath" : "~/GitHub/WAC2021-Collab-Hub-Workshop/CH-Waves/waves-resources",
 				"patcherrelativepath" : ".",
 				"type" : "gDSP",
 				"implicit" : 1
@@ -4438,8 +4449,6 @@
 , 			{
 				"name" : "blues",
 				"default" : 				{
-					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ],
-					"textcolor" : [ 0.0, 0.078431, 0.321569, 1.0 ],
 					"color" : [ 0.897845, 0.934085, 0.993504, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
@@ -4452,9 +4461,11 @@
 					}
 ,
 					"patchlinecolor" : [ 0.495624, 0.529709, 0.636972, 0.9 ],
-					"bgcolor" : [ 0.240323, 0.247547, 0.573641, 1.0 ],
 					"accentcolor" : [ 0.691232, 0.993878, 0.999509, 1.0 ],
-					"elementcolor" : [ 0.0, 0.078431, 0.321569, 1.0 ]
+					"elementcolor" : [ 0.0, 0.078431, 0.321569, 1.0 ],
+					"bgcolor" : [ 0.240323, 0.247547, 0.573641, 1.0 ],
+					"textcolor" : [ 0.0, 0.078431, 0.321569, 1.0 ],
+					"textcolor_inverse" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
