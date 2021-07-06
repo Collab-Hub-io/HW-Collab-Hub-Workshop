@@ -26,3 +26,4 @@ You may also want to keep this page open in order to follow along during the wor
 - <a href="https://github.com/Collab-Hub-io/WAC2021-Collab-Hub-Workshop/tree/main/Collab-Hub-Max-Client-v0.3" target="_blank">Max client</a>
 - <a href="https://github.com/Collab-Hub-io/WAC2021-Collab-Hub-Workshop/tree/main/Collab-Hub-PD-Client-v0.3" target="_blank">Pd client</a>
 - <a href="http://ch-server.herokuapp.com/" target="_blank">Web client</a>
+- <a href="https://github.com/Collab-Hub-io/WAC2021-Collab-Hub-Workshop/tree/main/WEBAUDIO.md">Using Collab-Hub in Web Audio Applications</a>
