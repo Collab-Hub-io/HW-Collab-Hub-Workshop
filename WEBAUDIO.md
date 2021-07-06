@@ -1,6 +1,6 @@
 # WAC2021 Collab-Hub Workshop
-## Creating Telematic Musical Performances Through Max And The Web With Collab-Hub  
-
+## Creating Telematic Musical Performances Through Max And The Web With Collab-Hub
+---
 ### Using Collab-Hub in Web Audio Applications
 
 Collab-Hub uses the [Socket.IO](https://socket.io/) library for client-server communications.
@@ -13,8 +13,9 @@ Include in HTML head:
 `<script src="/socket.io/socket.io.js"></script>`  
 
 Developers using only the client functionality of Socket.IO may alternatively install the smaller client-only package:
-`npm install socket.io-client`  
+`npm install socket.io-client`
 
+---
 #### Messages
 All control, event, and chat messages are sent as objects in the following formats. Client applications parse these objects as needed for native use in their respective hosts (e.g. Max, Pd, etc).
 
@@ -56,8 +57,8 @@ socket.on("event", incoming => {
       eventResponse();
     };
 });
-```  
+```
 
-
+---
 #### Additional Functionality
 Other functions of Collab-Hub include adding/changing usernames, joining/leaving rooms, viewing list of connected users, etc. Documentation of implementation procedures for additional functionality in web audio applications is forthcoming, though much of this may be extrapolated from existing client source code e.g. Max client script.
