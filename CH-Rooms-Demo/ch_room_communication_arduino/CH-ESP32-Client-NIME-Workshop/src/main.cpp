@@ -1,16 +1,16 @@
 /*
-~ ~ ~ ~ ~ ~ Collab-Hub Workshop: NIME 2021 ~ ~ ~ ~ ~ ~
+~ ~ ~ ~ ~ ~ Collab-Hub Workshop: WAC 2021 ~ ~ ~ ~ ~ ~
 
 Collab-Hub Client for ESP32 microcontrollers
 
 Example: Basic Connection, Room Joining, and Receiving from other CH clients/the server
-version 0.1.0 - 6/12/2021
+version 0.1.0 - 7/6/2021
 
 Firmware by Anthony T. Marasco, portions based on Markus Sattler's arduinoWebSockets examples
 
 Collab-Hub is designed and maintained by Nick Hwang, Eric Sheffield, and Anthony T. Marasco
 
-This code is only for NIME 2021 workshop participants. Please do not distribute elsewhere.
+This code is only for WAC 2021 workshop participants. Please do not distribute elsewhere.
 */
 
 #include <Arduino.h>
