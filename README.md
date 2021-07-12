@@ -1,4 +1,4 @@
-# WAC2021 Collab-Hub Workshop
+# Harvestworks Collab-Hub Workshop
 ## Creating Telematic Musical Performances Through Max And The Web With Collab-Hub
 
 <img src="/img/CH-Title.png" alt="Collab-Hub Logo" height="50"/>
@@ -16,14 +16,14 @@ In the resulting folder, you will find client resources and demo patches for Max
 - Download the [Arduino IDE](https://www.arduino.cc/en/software) OR [PlatformIO](https://platformio.org/) (if you'd prefer to use your own IDE)
 
 
-In order to use the Max examples, make sure to add the **WAC2021-Collab-Hub-Workshop** folder to your Max file preferences (with subfolders option checked).  
+In order to use the Max examples, make sure to add the **HW-Collab-Hub-Workshop** folder to your Max file preferences (with subfolders option checked).  
 
 You may also want to keep this page open in order to follow along during the workshop and reference the different README files.  
 
 <br>
 
 ### Collab-Hub Client Locations for Workshop
-- <a href="https://github.com/Collab-Hub-io/WAC2021-Collab-Hub-Workshop/tree/main/Collab-Hub-Max-Client-v0.3" target="_blank">Max client</a>
-- <a href="https://github.com/Collab-Hub-io/WAC2021-Collab-Hub-Workshop/tree/main/Collab-Hub-PD-Client-v0.3" target="_blank">Pd client</a>
+- <a href="https://github.com/Collab-Hub-io/HW-Collab-Hub-Workshop/tree/main/Collab-Hub-Max-Client-v0.3" target="_blank">Max client</a>
+- <a href="https://github.com/Collab-Hub-io/HW-Collab-Hub-Workshop/tree/main/Collab-Hub-PD-Client-v0.3" target="_blank">Pd client</a>
 - <a href="http://ch-server.herokuapp.com/" target="_blank">Web client</a>
-- <a href="https://github.com/Collab-Hub-io/WAC2021-Collab-Hub-Workshop/tree/main/WEBAUDIO.md">Using Collab-Hub in Web Audio Applications</a>
+- <a href="https://github.com/Collab-Hub-io/HW-Collab-Hub-Workshop/tree/main/WEBAUDIO.md">Using Collab-Hub in Web Audio Applications</a>
