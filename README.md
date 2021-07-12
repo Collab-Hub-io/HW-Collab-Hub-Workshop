@@ -1,5 +1,5 @@
 # Harvestworks Collab-Hub Workshop
-## Creating Telematic Musical Performances Through Max And The Web With Collab-Hub
+## Collab-Hub, a tool for connecting Max, Pd, Arduino, and the Web for interconnected audiovisual performance, installations, and more.
 
 <img src="/img/CH-Title.png" alt="Collab-Hub Logo" height="50"/>
 
