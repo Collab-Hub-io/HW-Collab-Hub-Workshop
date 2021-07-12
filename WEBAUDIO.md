@@ -1,4 +1,4 @@
-# WAC2021 Collab-Hub Workshop
+# Collab-Hub Workshop
 ## Creating Telematic Musical Performances Through Max And The Web With Collab-Hub
 
 ### Using Collab-Hub in Web Audio Applications
@@ -61,4 +61,4 @@ socket.on("event", incoming => {
 
 ---
 #### Additional Functionality
-Other functions of Collab-Hub include adding/changing usernames, joining/leaving rooms, viewing list of connected users, etc. Documentation of implementation procedures for additional functionality in web audio applications is forthcoming, though much of this may be extrapolated from existing client source code e.g. [Max client script](https://github.com/Collab-Hub-io/WAC2021-Collab-Hub-Workshop/blob/main/Collab-Hub-Max-Client-v0.3/CH-ClientScript-v0.3.js).
+Other functions of Collab-Hub include adding/changing usernames, joining/leaving rooms, viewing list of connected users, etc. Documentation of implementation procedures for additional functionality in web audio applications is forthcoming, though much of this may be extrapolated from existing client source code e.g. [Max client script](https://github.com/Collab-Hub-io/HW-Collab-Hub-Workshop/blob/main/Collab-Hub-Max-Client-v0.3/CH-ClientScript-v0.3.js).

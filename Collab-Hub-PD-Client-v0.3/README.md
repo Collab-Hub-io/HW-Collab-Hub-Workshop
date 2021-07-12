@@ -8,7 +8,7 @@
 
 ---
 ### NIME WORKSHOP
-This version is used for the NIME 2021 Workshop. For the latest version of the PD-Client and more examples, please visit [https://github.com/Collab-Hub-io].
+This version is used for the Harvestworks Workshop. For the latest version of the PD-Client and more examples, please visit [https://github.com/Collab-Hub-io].
 
 ## Overview
 
