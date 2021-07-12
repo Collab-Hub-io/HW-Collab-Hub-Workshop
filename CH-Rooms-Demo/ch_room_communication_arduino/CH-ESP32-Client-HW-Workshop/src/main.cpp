@@ -1,5 +1,5 @@
 /*
-~ ~ ~ ~ ~ ~ Collab-Hub Workshop: WAC 2021 ~ ~ ~ ~ ~ ~
+~ ~ ~ ~ ~ ~ Collab-Hub Workshops~ ~ ~ ~ ~ ~
 
 Collab-Hub Client for ESP32 microcontrollers
 
@@ -10,7 +10,7 @@ Firmware by Anthony T. Marasco, portions based on Markus Sattler's arduinoWebSoc
 
 Collab-Hub is designed and maintained by Nick Hwang, Eric Sheffield, and Anthony T. Marasco
 
-This code is only for WAC 2021 workshop participants. Please do not distribute elsewhere.
+This code is only for Collab-Hub workshop participants. Please do not distribute elsewhere.
 */
 
 #include <Arduino.h>
