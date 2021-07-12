@@ -1,4 +1,4 @@
-# Collab-Hub PD Client 0.3.1 - NIME WORKSHOP
+# Collab-Hub PD Client 0.3.1 - Harvestworks Workshop
 
 <br/>
 
@@ -7,7 +7,7 @@
 <br/>
 
 ---
-### NIME WORKSHOP
+### Harvestworks Workshop
 This version is used for the Harvestworks Workshop. For the latest version of the PD-Client and more examples, please visit [https://github.com/Collab-Hub-io].
 
 ## Overview

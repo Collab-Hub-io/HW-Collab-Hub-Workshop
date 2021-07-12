@@ -7,7 +7,7 @@
 <br/>
 
 ---
-### NIME WORKSHOP
+### Harvestworks Workshop
 
 *This version of the Max client was prepared for the Harvestworks Workshop. To stay updated with the latest version of the Max client and find more examples, please refer to https://github.com/Collab-Hub-io/Collab-Hub-Max-Client.*
 
